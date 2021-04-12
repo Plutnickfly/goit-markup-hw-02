@@ -43,19 +43,43 @@ a {
     color: var(--button-blue-color);
 }
 
-.section-title {
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
-}
-
 .main-section-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.67;
     color: var(--primary-text-color);
 }
+
+.section-title {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--primary-text-color);
+}
+
+.folio-title {
+   font-size: 18px;
+line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.team-text {
+    font-size: 16px;
+line-height: 1.19;
+}
+
+.folio-text {
+   
+font-size: 16px;
+line-height: 1.88;
+
+letter-spacing: 0.03em;
+}
+
+.upper {
+    text-transform: uppercase;
+    
+}
+
 
 .grey-section {
     background-color: var(--button-color);
@@ -90,10 +114,9 @@ a {
     color: #2196F3;
 }
 
-.in-ln li {
+/* .in-ln li {
     display: inline;
-    padding: 30px;
-}
+} */
 
 .logo {
     font-family: var(--font-logo);
@@ -110,11 +133,10 @@ a {
 }
 
 .button {
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    width: 103px;
-    height: 38px;
     background-color: var(--button-color);
     color: var(--primary-text-color);
 }
@@ -128,7 +150,7 @@ a {
     cursor: pointer;
 }
 
-.service {
+.service-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
