@@ -9,6 +9,16 @@
     --button-color: #F5F4FA;
 }
 
+html {
+box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -75,14 +85,21 @@ line-height: 1.88;
 letter-spacing: 0.03em;
 }
 
-.upper {
-    text-transform: uppercase;
+.qualities {
+  
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
     
 }
 
 
 .grey-section {
     background-color: var(--button-color);
+}
+
+.grey-section .section-title {
+    font-weight: 500;
 }
 
 .solutions {
